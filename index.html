@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <!-- Modal Start -->
+    <div class="btnDiv">
+      <button class="modalBtn" id="myBtn">Modal</button>
+    </div>
+    <div id="modalContainer" class="modal">
+      <div class="modalContent">
+        <span class="closeBtn">&times;</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nulla?
+        </p>
+      </div>
+    </div>
+    <!-- Modal End -->
+    <!-- Sidebar Start -->
+    <div id="sidebarContainer" class="sidebar">
+      <a href="javascript:void(0)" class="sidebarClose" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">Text</a>
+      <a href="#">Text</a>
+      <a href="#">Text</a>
+      <a href="#">Text</a>
+    </div>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+    </div>
+
+    <!-- Sidebar End -->
+    <script src="/index.js"></script>
+  </body>
+</html>

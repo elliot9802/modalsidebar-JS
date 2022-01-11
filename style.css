@@ -1,0 +1,98 @@
+/* Modal Start */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(150, 150, 150, 0.4);
+}
+
+.modalContent {
+  background-color: #fff;
+  margin: 250px auto;
+  padding: 20px;
+  border: 1px solid rgb(161, 161, 161);
+  width: 50%;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.modalBtn {
+  width: 350px;
+  height: 50px;
+}
+
+.closeBtn {
+  color: rgb(161, 161, 161);
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus,
+.modalBtn:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Modal End */
+
+/* Sidebar Start */
+/* The sidebar menu */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  margin: 15px 15px 15px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .sidebarClose {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  top: 0;
+  left: 0;
+  padding: 20px 45px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+/* Sidebar End */
